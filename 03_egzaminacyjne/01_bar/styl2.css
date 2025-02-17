@@ -2,3 +2,37 @@ body{
     background-color: #AEF1F4;
     font-style: georgia;
 }
+
+header{
+    background-color: #0EA2A9;
+    text-align: center;
+    color: white;
+    height: 80px;
+}
+
+section.left{
+    width: 40%;
+    font-size: 150%;
+    float: left;
+}
+
+section.right{
+    float: left;
+}
+
+main{
+    clear:both;
+    background-color: #4FCDD4;
+    padding: 30px;
+}
+footer{
+    background-color: #0EA2A9;
+    color: white;
+    height: 80px;
+}
+img{
+    height: 300px;
+}
+table{
+    border: 1px solid black;
+}
