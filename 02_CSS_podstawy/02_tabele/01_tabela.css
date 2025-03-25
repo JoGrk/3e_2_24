@@ -1,0 +1,30 @@
+body{
+    padding: 2rem;
+    
+}
+
+table{
+    margin: 2rem;
+}
+
+table, td, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+
+td, th{
+    padding: 5px;
+}
+
+th{
+    background-color: rgb(202, 179, 224);
+}
+
+.sternik{
+border: 2px dashed lightblue;
+}
+
+table.red td:hover{
+    color: red;
+}
