@@ -1,0 +1,14 @@
+table{
+    margin: 2rem auto;
+    border: 3px rgb(42, 83 , 42) solid;
+    border-collapse: collapse;
+    width: 35rem;
+}
+tfoot{
+    border: 3px rgb(42, 83 , 42) solid;
+}
+td,th{
+    border: 1px rgb(42, 83 , 42);
+    padding: 0.5rem 1.5rem;
+    text-align: left;
+}
