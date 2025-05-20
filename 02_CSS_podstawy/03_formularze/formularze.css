@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(30, 30, 30);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form{
+    width: 30rem;
+    margin: 3rem auto;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 1rem;
+    display: block;
+    border: 1px solid rgb(174, 174, 174);
+    padding: 0.25rem;
+    color: rgb(61, 58, 58);
+    font-family: inherit;
+}
+input:focus, textarea:focus{
+    background-color: rgb(219, 190, 253);
+    color: rgb(32, 5, 63);
+    border-color: rgb(32, 5, 63);
+}
+button{
+    background-color: rgb(32, 5, 63);
+    border-color: rgb(32, 5, 63);
+    color: white;
+    display: block;
+    font-family: inherit;
+    border-radius: 4px;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+
+    
+}
+
+
