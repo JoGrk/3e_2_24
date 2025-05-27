@@ -28,31 +28,37 @@
         <ul>
             <li>
                 <input type="radio" name="verify" id="email" required>
-                <label for="verify">E-mail</label>
+                <label for="email">E-mail</label>
             </li>
             <li>
                 <input type="radio" name="verify" id="sms" required>
-                <label for="verify">SMS</label>
+                <label for="sms">SMS</label>
             </li>
             <li>
                 <input type="radio" name="verify" id="telephone" required>
-                <label for="verify">Telefon</label>
+                <label for="telephone">Telefon</label>
             </li>
         </ul>
 
         <h2>Preferowana forma kontaktu</h2>
-        
-        <input type="checkbox" name="contact-email" id="contact-email">
-        <label for="contact-email">Poprzez E-mail</label>
-        <input type="checkbox" name="contact-email" id="contact-email">
-        <label for="contact-email">Poprzez telefon</label>
+        <ul>
+            <li><input type="checkbox" name="contact-email" id="contact-email">
+                <label for="contact-email">Poprzez E-mail</label>
+            </li>
+            <li>
+                <input type="checkbox" name="contact-email" id="contact-phone">
+                <label for="contact-phone">Poprzez telefon</label>
+            </li>
+        </ul>
         <hr>
         <div class="flex"><input type="checkbox" name="statute" id="statute">
-        <label for="statute">Zgadzasz się z regulaminem?</label></div>
-        
+            <label for="statute">Zgadzasz się z regulaminem?</label>
+        </div>
+        </ul>
         <div class="flex"><button type="submit">Wyślij</button>
-        <button type="reset">Reset</button></div>
-        
+            <button type="reset">Reset</button>
+        </div>
+
 
 
 
