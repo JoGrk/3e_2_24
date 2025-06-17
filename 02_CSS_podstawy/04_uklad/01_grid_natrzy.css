@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(138, 136, 136);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+        'hd hd'
+        'lu ru'
+        'lu rm'
+        'ld rm'
+        'ld rd';
+}
+
+header{
+    background-color: whitesmoke;
+    grid-area: hd;
+    height: 100px;
+}
+
+.left-up{
+    background-color: blue;
+    height: 300px;
+    grid-area: lu;
+}
+
+.left-down{
+    background-color: rgb(29, 29, 164);
+    height: 300px;
+    grid-area: ld;
+}
+
+.right-up{
+    background-color: lightgreen;
+    height: 200px;
+    grid-area: ru;
+}
+
+.right-mid{
+    background-color: greenyellow;
+    height: 200px;
+    grid-area: rm;
+}
+
+.right-down{
+    background-color: green;
+    height: 200px;
+    grid-area: rd;
+}

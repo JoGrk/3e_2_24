@@ -1,0 +1,43 @@
+header{
+    background-color: cyan;
+    height: 100px;
+}
+
+main{
+
+    display: flex;
+}
+
+.lefts{
+    width: 50%;
+}
+
+.rights{
+    width: 50%;
+}
+
+.left-up{
+    background-color: blue;
+    height: 300px;
+}
+
+.left-down{
+    background-color: rgb(9, 176, 176);
+    height: 300px;
+}
+
+.right-up{
+    background-color: rgb(5, 236, 21);
+    height: 200px;
+}
+
+.right-mid{
+    background-color: rgb(7, 87, 40);
+    height: 200px;
+}
+
+.right-down{
+    background-color: rgb(5, 218, 126);
+    height: 200px;
+}
+
